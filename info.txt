@@ -1,0 +1,12 @@
+supabase cridentials:
+Project name: wacrm
+Database password: vrIWyIbFvuXSeUpA
+
+node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
+
+npm install @supabase/supabase-js @supabase/ssr
+
+npm install --global supabase
+supabase login
+supabase link --project-ref sttqjtcmohhgcwenyaob
+supabase db push
